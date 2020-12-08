@@ -43,6 +43,6 @@ fibo_list = list()
 for _ in range(0, 35):
     fibo_list.append(fibonacci(_))
 
-print(sum(L[0::3]))
+print(sum(fibo_list[0::3]))
 print(time.time() - start_time)
 
