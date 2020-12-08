@@ -1,3 +1,3 @@
-# Euler
+# Project Euler
 
-Solving problems on Project Euler
+Solving problems in Project Euler
