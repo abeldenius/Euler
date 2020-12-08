@@ -4,7 +4,7 @@
 #  we get 3, 5, 6 and 9. The sum of these multiples is 23.
 # Find the sum of all the multiples of 3 or 5 below 1000.
 
-""" import time 
+import time 
 
 start_time = time.time()
 
@@ -15,7 +15,7 @@ for _ in range(0, 1000):
 
 print(sum_multiples)
 print(time.time() - start_time)
- """
+
 
 
 # ---------------- Even Fibonacci numbers --------------
@@ -25,7 +25,7 @@ print(time.time() - start_time)
 # By considering the terms in the Fibonacci sequence whose values
 # do not exceed four million, find the sum of the even-valued terms.
 
-""" import time
+import time
 
 
 start_time = time.time()
@@ -43,8 +43,6 @@ fibo_list = list()
 for _ in range(0, 35):
     fibo_list.append(fibonacci(_))
 
-print(fibo_list)
-print(time.time() - start_time)
- """
-L = [0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144, 233, 377, 610, 987, 1597, 2584, 4181, 6765, 10946, 17711, 28657, 46368, 75025, 121393, 196418, 317811, 514229, 832040, 1346269, 2178309, 3524578]
 print(sum(L[0::3]))
+print(time.time() - start_time)
+
